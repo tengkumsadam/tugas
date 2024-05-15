@@ -1,18 +1,35 @@
 {
+<<<<<<< HEAD
   "name": "uts-sadam",
   "private": true,
   "version": "0.0.0",
+=======
+  "name": " sadam",
+  "version": "0.0.0",
+  "private": true,
+>>>>>>> 29656b2da38b30a6b3b069681e93197d8214ab09
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "preview": "vite preview"
+=======
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+>>>>>>> 29656b2da38b30a6b3b069681e93197d8214ab09
   },
   "dependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+<<<<<<< HEAD
     "vite": "^5.2.0"
+=======
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "vite": "^5.2.8"
+>>>>>>> 29656b2da38b30a6b3b069681e93197d8214ab09
   }
 }
